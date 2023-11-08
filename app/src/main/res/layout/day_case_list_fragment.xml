@@ -1,0 +1,18 @@
+<!-- fragment_day_case_list.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- Анимация загрузки (ProgressBar) -->
+    <ProgressBar
+        android:id="@+id/loadingProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
